@@ -100,7 +100,7 @@ HP-Floor1,192.168.1.20,IP\_192.168.1.20,Floor 1 Printer,HP LaserJet Floor 1,Yes,
 ```
 Example:
 
-C:\\Temp\\printers.csv
+C:\Temp\printers.csv
 ```
 
 
@@ -116,7 +116,7 @@ Set-ExecutionPolicy RemoteSigned -Scope Process
 * Run the script:
 
 ```
-.\\Create-Printers.ps1
+.\Create-Printers.ps1
 
 ```
 
@@ -125,7 +125,7 @@ Set-ExecutionPolicy RemoteSigned -Scope Process
 Each execution generates a CSV log file:
 
 ```
-C:\\PrinterLogs\\PrinterCreation\_YYYYMMDD\_HHMMSS.csv
+C:\PrinterLogs\PrinterCreation\_YYYYMMDD\_HHMMSS.csv
 ```
 
 * The log contains:
