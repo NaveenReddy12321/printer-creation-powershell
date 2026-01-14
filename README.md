@@ -119,11 +119,13 @@ Set-ExecutionPolicy RemoteSigned -Scope Process```
 
 ```
 
-.\\Create-Printers.ps1```
+.\\Create-Printers.ps1
+
+```
 
 
 
-\## Logging
+## Logging
 
 
 
@@ -131,7 +133,8 @@ Each execution generates a CSV log file:
 
 ```
 
-C:\\PrinterLogs\\PrinterCreation\_YYYYMMDD\_HHMMSS.csv```
+C:\\PrinterLogs\\PrinterCreation\_YYYYMMDD\_HHMMSS.csv
+```
 
 
 
@@ -147,7 +150,7 @@ C:\\PrinterLogs\\PrinterCreation\_YYYYMMDD\_HHMMSS.csv```
 
 
 
-\## Use Cases
+## Use Cases
 
 
 
