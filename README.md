@@ -107,38 +107,26 @@ C:\\Temp\\printers.csv
 
 * Open PowerShell as Administrator
 
+- Allow script execution:
 ```
+Set-ExecutionPolicy RemoteSigned -Scope Process
 
-Allow script execution:
-
-Set-ExecutionPolicy RemoteSigned -Scope Process```
-
-
+```
 
 * Run the script:
 
 ```
-
 .\\Create-Printers.ps1
 
 ```
 
-
-
 ## Logging
-
-
 
 Each execution generates a CSV log file:
 
 ```
-
 C:\\PrinterLogs\\PrinterCreation\_YYYYMMDD\_HHMMSS.csv
 ```
-
-
-
-
 
 * The log contains:
 * Timestamp
@@ -148,11 +136,7 @@ C:\\PrinterLogs\\PrinterCreation\_YYYYMMDD\_HHMMSS.csv
 * Status (Success / Failed / Skipped)
 * Error message (if any)
 
-
-
 ## Use Cases
-
-
 
 * New office printer onboarding
 * Print server rebuilds
