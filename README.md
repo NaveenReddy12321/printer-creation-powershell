@@ -1,8 +1,8 @@
-\# Bulk Printer Creation using PowerShell
+# Bulk Printer Creation using PowerShell
 
 
 
-\## Overview
+## Overview
 
 This project provides a PowerShell automation script to bulk create printers on a Windows Print Server using a CSV input file.
 
@@ -16,39 +16,21 @@ The script is designed for Windows system administrators to eliminate manual pri
 
 
 
-\## Features
+## Features
 
-\- Bulk printer creation from CSV
+- Bulk printer creation from CSV
 
-\- Automatic TCP/IP printer port creation
+- Automatic TCP/IP printer port creation
 
-\- Assigns printers to correct ports
+- Assigns printers to correct ports
 
-\- Supports printer sharing configuration
+- Supports printer sharing configuration
 
-\- Prevents duplicate printer creation
+- Prevents duplicate printer creation
 
-\- Clear console output for success and failures
+- Clear console output for success and failures
 
-\- Generates CSV logs for every execution
-
-
-
----
-
-
-
-\## Prerequisites
-
-\- Windows Server with Print Management role
-
-\- PowerShell 5.1 or later
-
-\- Script must be run as Administrator
-
-\- Printer drivers must already be installed
-
-\- Print Spooler service must be running
+- Generates CSV logs for every execution
 
 
 
@@ -56,7 +38,25 @@ The script is designed for Windows system administrators to eliminate manual pri
 
 
 
-\## CSV Format
+## Prerequisites
+
+- Windows Server with Print Management role
+
+- PowerShell 5.1 or later
+
+- Script must be run as Administrator
+
+- Printer drivers must already be installed
+
+- Print Spooler service must be running
+
+
+
+---
+
+
+
+## CSV Format
 
 The script expects the following columns:
 
@@ -89,19 +89,19 @@ Example:
 PrinterName,PrinterIP,PortName,Comment,Description,Shared,DriverName
 
 HP-Floor1,192.168.1.20,IP\_192.168.1.20,Floor 1 Printer,HP LaserJet Floor 1,Yes,HP Universal Printing PCL 6
+```
 
 
-
-\## How to Use
+## How to Use
 
 
 
 * Copy the CSV file to the server
-* ```
-
+```
 Example:
 
-C:\\Temp\\printers.csv```
+C:\\Temp\\printers.csv
+```
 
 
 
